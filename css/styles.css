@@ -1,0 +1,161 @@
+/*for top heading point*/
+.header img {
+  float: left;
+  width: 110px;
+  height: 110px;
+  margin-left: 80px;
+}
+.header h1 {
+  position: relative;
+  top: 18px;
+  text-align: center;
+  left: 10px;
+}
+
+/*for main*/
+.body{
+	background-color:#d8d7d7 ;/*#d8d7d7 */
+	border: 0px solid green;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.body2{
+  background-color:#424242;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.div2{ 
+       /*float:right;*/
+       width:100%;
+      }
+
+/*for images slides*/
+.slides{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+   }     
+.slides2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    height:auto;
+}
+/*for login button*/
+.button {
+    background-color: #7b8507;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left:30px;
+    margin-top:10px;
+    cursor: pointer;
+    border-radius:3px;
+    width: 75%;
+   }
+ .button2 {
+    background-color: #7b8507;
+    border: none;
+    color: white;
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left:85px;
+    margin-top:12px;
+    cursor: pointer;
+    border-radius:4px;
+    width: 60%;
+   }
+.button:hover{
+    background-color: #9c5d85;
+    opacity: 0.8;
+  }  
+.button2:hover{
+    background-color: #9c5d85;
+    opacity: 0.8;
+  }
+  
+/*for animation at top*/
+.div{
+    width: 100%;
+    /*height: 120px;*/
+    padding:12px;
+    background-color:#a16382;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 10s; 
+    animation-duration: 10s;
+}
+
+@-webkit-keyframes example {
+    from {background-color:#9ca907;}
+    to {background-color: #1de898;}
+}
+@keyframes example {
+    from {background-color: #9ca907;}
+    to {background-color: #9ca907;}
+} 
+/*for blinking animations*/
+.blinking{
+    animation:blinkingText 1.5s infinite;
+}
+@keyframes blinkingText{
+    0%{     color: #000;    }
+    49%{    color: transparent; }
+    50%{    color: transparent; }
+    99%{    color:transparent;  }
+    100%{   color: #000;    }
+}
+/*for form responsiveness*/
+* {
+    box-sizing: border-box;
+    } 
+
+input, textarea {
+    width: 100%;
+   }
+.login{
+	background-color:#d8d7d7;
+	margin:0px auto;
+}  
+.login2{
+	background-color:#d8d7d7;
+	margin:0px auto;
+}      
+/*for header design css*/
+.un_list{
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         color: #333;
+         overflow: hidden;
+         text-decoration: none;
+         background-color:green;
+         position: -webkit-sticky; /* sticky navigation bar */
+         position: sticky;
+         top: 0;
+         z-index:1000;
+}
+.list{
+        float: right;
+        font-size:16px;
+        text-decoration: none;
+        margin-left:58px;
+        border-right: 0px solid #bbb;
+}
+.list_a{
+        display: block;
+        color: #000;
+        padding: 8px 16px;
+        text-decoration: none;
+}
+.list_a:hover{
+        background-color: #555;
+        color: white;
+        display: inline-block;
+        text-decoration: none;
+}
